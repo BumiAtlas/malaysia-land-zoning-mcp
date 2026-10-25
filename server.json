@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.BumiAtlas/malaysia-land-zoning",
+  "title": "Malaysia Land Lots & Local Plan Zoning",
+  "description": "Malaysian JUPEM land lots by UPI, lot number or coordinates, with PLANMalaysia local-plan zoning.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/BumiAtlas/malaysia-land-zoning-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://bumiatlas.com/mcp-docs/malaysia",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://bumiatlas.com/mcp/malaysia"
+    }
+  ]
+}
